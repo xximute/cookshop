@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+<title>Напитки</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<style>
+#content {background-color:rgba(0,0,0,0);
+	box-shadow: 0 0 15px rgba(0,0,0,0);}
+#line {z-index:1; 
+	position: relative; 
+    top: 0px; 
+    left: 0px; 
+	box-shadow: 0 0 15px rgba(0,0,0,0.5);
+	float:left;
+	margin:0px 00px 10px 20px;
+	width:700px;
+	height:200px;
+	background-color:white;
+	border-radius: 10px 10px 10px 10px; 
+	-webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+	}
+	#line:hover {
+	box-shadow: 0 0 15px rgba(0,0,0,0.9);
+	}
+		#ph {position:relative; top:0px; left:0px; border-radius: 10px  0px 0px 10px; 
+width:200px; margin:0px; padding:0px;
+	}
+	#price {float:right; margin:150px 25px 0px 0px;
+	font-family:Arial; font-size:25px;
+	
+	}
+	#name {
+	position:relative; top:-175px; 
+	margin:auto 0px auto 225px;
+	font-family:Arial; font-size:25px;
+	}
+</style>
+</head>
+<body>
+
+<div id="main">
+<div id="left">
+	<div id="header" title="Приятного аппетита!" ><img id="logo" src="img/logo300.png"> </div>
+	<div id="menu">
+		<ul id="menulist">
+		<li><a href="menu.html" id="itemsel">Меню</a></li>
+		<li><a href="#" id="item">Расписание</a></li>
+		<li><a href="#" id="item">Заказ на класс</a></li>
+		</ul>
+	</div>
+	</div>
+<div id="right">
+<div id="bar"><a href="menu.html"><img id="back" src="img/back.png" ></a><img src="img/basket.png" id="bskt">
+<p id="ord"><i>Заказ на</i> <b>123</b><i> руб.</i></p>
+
+</div>	
+<div id="content">
+<div id="line"><img id="ph" src="img/drinks/tea.jpg"><p id="price"><b>3</b><i> руб</i></p><p id="name">Чай черный</p></div>
+<div id="line"><img id="ph" src="img/drinks/lemtea.jpg"><p id="price"><b>5</b><i> руб</i></p><p id="name">Чай черный с лимоном</p></div>
+<div id="line"><img id="ph" src="img/drinks/cofe.jpg"><p id="price"><b>10</b><i> руб</i></p><p id="name">Кофе</p></div>
+<div id="line"><img id="ph" src="img/drinks/anton.jpg"><p id="price"><b>5</b><i> руб</i></p><p id="name">Антон</p></div>
+</div>
+</div>
+</body></html>
+
+
