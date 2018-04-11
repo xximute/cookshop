@@ -39,14 +39,39 @@ p {padding:0px; margin:0px;
 }
 #bar {position:fixed;
   border-radius: 0px 0px 10px 10px; 
-	z-index:2;
+	z-index:3;
 	top:0px;
 	padding:0px;
 	margin:0px 0px 10px 0px;
 	width:740px;
 	height:75px;
 	background-color:#fcbf0f;
-	box-shadow: 0 0 15px rgba(0,0,0,0.7);
+	box-shadow: 0 0 15px rgba(0,0,0,0.7);}
+
+
+#cart_button {
+Font-family:Arial; font-weight:bold; font-size:12px; text-align:center;
+line-height:25px;
+z-index:2; 
+	position: relative; 
+    top:-115px; 
+	box-shadow: 0 0 0px rgba(0,0,0,0.1);
+	float:right;
+	margin:25px;
+	width:75px;
+	height:25px;
+	background-color:white;
+	border-radius: 5px; 
+	-webkit-transition: all 0.3s ease;
+  	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	}
+	#cart_button:hover {
+ cursor: pointer;
+background-color:#fcbf0f;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	
 	
 	
 }
